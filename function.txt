@@ -1,0 +1,156 @@
+Abs:Number
+AppActivate:Title, [Wait]
+Asc:String As String
+AscB:String As String
+AscW:String As String
+Atn:Number As Double
+Beep: 
+CallByName:Object As Object, ProcName As String, CallType As VBCallType, Args() As Variant
+CBool:Expression
+CByte:Expression
+CCur:Expression
+CDate:Expression
+CDbl:Expression
+CDec:Expression
+ChDir:Path As String
+ChDrive:Drice As String
+Choose:Index As Single, ParamArray Choice() As Variant
+Chr:CharCode As Long
+ChrB:CharCode As Byte
+ChrW:CharCode As Long
+CInt:Expression
+CLng:Expression
+Command: 
+Cos:Number As Double
+CreateObject:Class As String, [ServerName As String]
+CSng:Expression
+CStr:Expression
+CurDir:[Drive]
+CVar:Expression
+CVDate:Expression
+CVErr:Expression
+DateAdd:Interval As String, Number As Double, Date
+DateDiff:Interval As String, Date1, Date2, [FirstDayOfWeek As VbDayOfWeek = vbSunday], [FirstWeekOfYear As VbfirstWeekOfTear = vbFirstJan1]
+DatePart:Interval As String, Date1, Date2, [FirstDayOfWeek As VbDayOfWeek = vbSunday], [FirstWeekOfYear As VbfirstWeekOfTear = vbFirstJan1]
+DateSerial:Year As Integer
+DateValue:Date As String
+Day:Date
+DDB:Cost As Double, Salvage As Double, Life As Double, Period As Double, [Factor]
+DelecteSetting:AppName As String, [Section], [Key]
+Dir:[PathName], [Attributes As VbFileAttribute = vbNormal]
+DeEvents: 
+Environ:Expression
+EOF:FileNumber As Integer
+Err: 
+Error:ErrorNumber
+Exp:Number As Double
+FileAttr:FileNumber As Integer, [ReturnType As Integer = 1]
+FileCopy:Source As String, Destination As String
+FileDateTime:PathName As String
+FileLen:PathName As String
+Filter:SourceArray, Match As String, [Include As Boolean = True], [Compare As VbCompareMethod = vbBinaryCompare]
+Fix:Number
+Format:Expression, [Format], [FirstDayOfWeek As VbDayOfWeek = vbSunday], [FirstWeekOfYear As VbFirstWeekOfYear = vbFirstJan1]
+FormatCurrency:Expression, [NumDigitsAfterDecimal As Long = -1], [IncludeLeadingDigit As VbTriState = vbUseDefault], [UseParensForNegativeNumbers As VbTriState = vbUseDefault], [GroupDigits As VbTriState = vbUseDefault]
+FormatDateTime:Expression, [NamedFormat As VbDateTimeFormat = vbGeneralDate]
+FormatNumber:Expression, [NumDigitsAfterDecimal As Long = -1], [IncludeLeadingDigit As VbTriState = vbUseDefault], [UseParensForNegativeNumbers As VbTriState = vbUseDefault], [GroupDigits As VbTriState = vbUseDefault]
+FormatPercent:Expression, [NumDigitsAfterDecimal As Long = -1], [IncludeLeadingDigit As VbTriState = vbUseDefault], [UseParensForNegativeNumbers As VbTriState = vbUseDefault], [GroupDigits As VbTriState = vbUseDefault]
+FreeFile:[RangeNumber]
+FV:Rate As Double, NPer As Double, Pmt As Double, [PV], [Due]
+GetAllSettings:AppName As String, Section As String
+GetAttr:PathName As String
+GetObject:[PathName], [Class]
+GetSetting:AppName As String, Section As String, Key As String, [Default]
+Hex:Number
+Hour:Time
+IIf:Expression, TruePart, FalsePart
+IMEStatus: 
+InputBox:Prompt, [Title], [Default], [XPos], [YPos], [HelpFile], [Context]
+InStr:[Start], [String1], [String2], [Compare As VbCompareMethod = vbBinaryCompare]
+InStrB:[Start], [String1], [String2], [Compare As VbCompareMethod = vbBinaryCompare]
+InStrRev:StringCheck As String, StringMatch As String, [Start As Long = -1], [Compare As VbCompareMethod = vbBinaryCompare]
+Int:Number
+IPmt:Rate As Double, Per As Double, NPer As Double, PV As Double, [FV], [Due]
+IRR:ValueArray() As Double, [Guess]
+IsArray:VarName
+IsDate:Expression
+IsEmpty:Expression
+IsError:Expression
+IsNull:Expression
+IsNumeric:Expression
+IsObject:Expression
+Join:SourceArray, [Delimiter]
+Kill:PathName
+LCase:String
+Left:String, Length As Long
+LeftB:String, Length As Long
+Len:Expression
+LenB:Expression
+Load:Object As Object
+LoadPicture:[FileName], [Size], [ColorDepth], [X], [Y]
+LoadResData:id, type
+LoadResPicture:id, restype As Integer
+LoadResString:id As Long
+Loc:FileNumber As Integer
+LOF:FileNumber As Integer
+Log:Number As Double
+LTrim:String
+Mid:String, Start As Long, [Length]
+MidB:String, Start As Long, [Length]
+Minute:Time
+MIRR:ValueArray() As Double, FinanceRate As Double, ReinvestRate As Double
+MkDir:Path As String
+Month:Date
+MonthName:Month As Long, [Abbreviate As Boolean = False]
+MsgBox:Prompt, [Buttons As VbMsgBoxStyle = vbOKOnly], [Title], [HelpFile], [Context]
+NPer:Rate As Double, Pmt As Double, PV As Double, [FV], [Due]
+NPV:Rate As Double, ValueArray() As Double
+Oct:Number
+Partition:Number, Start, Stop, Interval
+Pmt:Rate As Double, NPer As Double, PV As Double, [FV], [Due]
+PPmt:Rate As Double, Per As Double, NPer As Double, PV As Double, [FV], [Due]
+PV:Rate As Double, NPer As Double, Pmt As Double, [FV], [Due]
+QBColor:Color As Integer
+Randomize:Number
+Rate:NPer As Double, Pmt As Double, PV As Double, [FV], [Due], [Guess]
+Replace:Expression As String, Find As String, Replace As String, [Start As Long = 1], [Count As Long = -1], [Compare As VbCompareMethod = vbBinaryCompare]
+Reset: 
+RGB:Red As Integer, Green As Integer, Blue As Integer
+Right:String, Length As Long
+RightB:String, Length As Long
+RmDir:Path As String
+Rnd:[Number]
+Round:Number, [NumDigitsAfterDecimal As Long]
+RTrim:String
+SavePicture:Picture As IPictureDisp, FileName As String
+SaveSetting:AppName As String, Section As String, Key As String, Setting As String
+Second:Time
+Seek:FileNumber As Integer
+SendKeys:String As String, [Wait]
+SetAttr:PathName As String, Attributes As VbFileAttribute
+Sgn:Number
+Shell:PathName, [WindowStyle As VbAppWinStyle = vbMinimizedFocus]
+Sin:Number As Double
+SLN:Cost As Double, Salvage As Double, Life As Double
+Space:Number As Long
+Split:Expression As String, [Delimiter], [Limit As Long = -1], [Compare As VbCompareMethod = vbBinaryCompare]
+Sqr:Number As Double
+Str:Number
+StrComp:String1, String2, [Compare As VbCompareMethod = vbBinaryCompare]
+StrConv:String, Conversion As VbStrConv, [LocaleID As Long]
+String:Number As Long, Character
+StrReverse:Expression As String
+Switch:ParamArray VarExpr() As Variant
+SYD:Cost As Double, Salvage As Double, Life As Double, Period As Double
+Tan:Number As Double
+TimeSerial:Hour As Integer, Minute As Integer, Second As Integer
+TimeValue:Time As String
+Trim:String
+TypeName:VarName
+UCase:String
+Unload:object As object
+Val:String As String
+VarType:VarName
+Weekday:Date, [FirstDayOfWeek As VbDayOfWeek = vbSunday]
+WeekdayName:eekday As Long, [Abbreviate As Boolean = False], [FirstDayOfWeek As VbDayOfWeek = vbUseSystemDayOfWeek]
+Year:Date
